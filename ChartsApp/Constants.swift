@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Currencies {
+    static let BTC = "BTC"
+    static let USD = "USD"
+}

@@ -16,13 +16,13 @@ class ChartsTabBarController: UITabBarController {
         
         let chartsController = ChartsController()
         let navigationController1 = UINavigationController(rootViewController: chartsController)
-        navigationController1.title = "Search"
+        navigationController1.title = "BTC"
         navigationController1.navigationBar.tintColor = .white
-//        navigationController1.tabBarItem.image = UIImage(named: "Search")
+        navigationController1.tabBarItem.image = UIImage(named: "BTC")
 
         viewControllers = [navigationController1]
         
-        self.tabBar.tintColor = .red
+        self.tabBar.tintColor = .orange
         self.tabBar.barTintColor = .white
         
     }
